@@ -4,5 +4,5 @@ export const hero = {
     "Businesses and developers empowered to co-learn, and co-create fintech-powered apps",
   ctaLabel: "How it works",
   ctaHref: "/demo", // Smooth scroll anchor
-  tagline: "Welcome the Builders' Stack Community of Practice powered by FTLP!",
+  tagline: "Welcome to the Builders' Stack Community of Practice powered by FTLP!",
 }
