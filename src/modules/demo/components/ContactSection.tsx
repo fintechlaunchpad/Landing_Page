@@ -75,9 +75,11 @@ export function ContactSection() {
   return (
     <section id="contact" className="w-full bg-muted/50 py-20 border-t border-border">
       <div className="container max-w-2xl px-4 mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">Let’s Connect</h2>
+        <h2 className="text-3xl font-bold mb-4">Interested?</h2>
         <p className="text-muted-foreground mb-10">
-          Leave your details and we’ll get in touch with you shortly.
+        Please fill in the contact form below,
+        so our team can reach out to you with more details
+        and help onboard you into the FTLP learning ecosystem.
         </p>
 
         {showMessage ? (
