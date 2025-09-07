@@ -1,24 +1,24 @@
 // src/modules/landing/data/features.ts
 
 export const featuresSection = {
-  heading: "What Powers the FTLP Ecosystem?",
+  heading: "The 3 Pillars of New-Age Hacking Competency",
   items: [
     {
       title: "Builder Labs",
       description:
-        "For developers — hands-on coding labs to ship features on FTLP's IaaS rails, SDKs, and Quick Turn Stacks.",
+        "You learn to hack tech",
       icon: "BeakerIcon",
     },
     {
       title: "Business Tracks",
       description:
-        "For founders and operators — learn how to frame, fund, and grow apps using FTLP rails.",
+        "You learn to hack value",
       icon: "BriefcaseIcon",
     },
     {
       title: "App Studios",
       description:
-        "For the business teams and tech teams to self organize and harmonized to build fintech-powered apps.",
+        "You learn to hack growth.",
       icon: "RocketIcon",
     },
   ],

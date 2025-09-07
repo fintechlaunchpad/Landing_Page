@@ -42,7 +42,7 @@ export function FeaturesSection() {
                     variant="default"
                     className="bg-[#705D56] text-white hover:bg-[#5f493f]"
                   >
-                    <Link href="/demo">How it works</Link>
+                    <Link href="/demo">Learn to hack better</Link>
                   </Button>
                 </div>
               </div>

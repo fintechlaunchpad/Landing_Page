@@ -1,8 +1,8 @@
 export const hero = {
-  headline: "Launch fintech-powered Apps",
+  headline: "Learn to Hack Apps That Create Value",
   subheadline:
-    "Businesses and developers empowered to co-learn, and co-create fintech-powered apps",
-  ctaLabel: "How it works",
+    "Builders and businesses co-learn, co-create, and hack together turning apps into value engines of growth.",
+  ctaLabel: "Learn to hack better",
   ctaHref: "/demo", // Smooth scroll anchor
-  tagline: "Welcome to the Builders' Stack Community of Practice powered by FTLP!",
+  tagline: "Welcome to the ecosystem where hacking becomes a mindful ritual to snowball value inside every app.",
 }
