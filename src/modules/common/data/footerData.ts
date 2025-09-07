@@ -12,7 +12,7 @@ export const socialLinks = [
 export const brandInfo = {
   title: "The FTLP Ecosystem",
   description:
-    "A builder’s gateway to fintech-powered Apps! Businesses and developers are empowered by the ecosystem to co-learn, and co-create the Apps that they could leverage on for growth",
+    "A builder’s gateway to Hack Apps That Create Value! Builders and businesses co-learn, co-create, and hack together turning apps into value engines of growth.",
   partners: [
     { src: "/assets/partnerlogo1.svg", alt: "9Figures" },
     { src: "/assets/partnerlogo2.svg", alt: "The Builders' Stack" },

@@ -4,5 +4,5 @@ export const hero = {
     "Builders and businesses co-learn, co-create, and hack together turning apps into value engines of growth.",
   ctaLabel: "Learn to hack better",
   ctaHref: "/demo", // Smooth scroll anchor
-  tagline: "Welcome to the ecosystem where hacking becomes a mindful ritual to snowball value inside every app.",
+  tagline: "Hacking becomes a mindful ritual for you to snowball value inside every app!",
 }
