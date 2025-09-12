@@ -73,7 +73,7 @@ export function ContactSection() {
     : contactMessages.successBody
 
   return (
-    <section id="contact" className="w-full bg-muted/50 py-20 border-t border-border">
+  <section id="contact" className="w-full bg-muted/50 py-20 border-t border-border">
       <div className="container max-w-2xl px-4 mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Interested?</h2>
         <p className="text-muted-foreground mb-10">
@@ -95,26 +95,26 @@ export function ContactSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label.Root htmlFor="firstName">First name</Label.Root>
-                <TextField.Root className="!mt-2" size="3" variant="classic" id="firstName" value={formData.firstName} onChange={handleChange} />
+                <TextField.Root className="!mt-2 bg-gray-100" size="3" variant="classic" id="firstName" value={formData.firstName} onChange={handleChange} />
                 {errors.firstName && <p className="text-sm text-red-500 mt-1">{errors.firstName}</p>}
               </div>
 
               <div>
                 <Label.Root htmlFor="lastName">Last name</Label.Root>
-                <TextField.Root className="!mt-2" size="3" variant="classic" id="lastName" value={formData.lastName} onChange={handleChange} />
+                <TextField.Root className="!mt-2 bg-gray-100" size="3" variant="classic" id="lastName" value={formData.lastName} onChange={handleChange} />
                 {errors.lastName && <p className="text-sm text-red-500 mt-1">{errors.lastName}</p>}
               </div>
             </div>
 
             <div>
               <Label.Root htmlFor="phone">Phone</Label.Root>
-              <TextField.Root className="!mt-2" size="3" variant="classic" id="phone" value={formData.phone} onChange={handleChange} />
+              <TextField.Root className="!mt-2 bg-gray-100" size="3" variant="classic" id="phone" value={formData.phone} onChange={handleChange} />
               {errors.phone && <p className="text-sm text-red-500 mt-1">{errors.phone}</p>}
             </div>
 
             <div>
               <Label.Root htmlFor="email">Email</Label.Root>
-              <TextField.Root className="!mt-2" size="3" variant="classic" id="email" value={formData.email} onChange={handleChange} />
+              <TextField.Root className="!mt-2 bg-gray-100" size="3" variant="classic" id="email" value={formData.email} onChange={handleChange} />
               {errors.email && <p className="text-sm text-red-500 mt-1">{errors.email}</p>}
             </div>
 
@@ -124,7 +124,7 @@ export function ContactSection() {
                 id="notes"
                 value={formData.notes}
                 onChange={handleChange}
-                className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#705D56] focus:border-transparent resize-none"
+                className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#705D56] focus:border-transparent resize-none bg-gray-100"
                 rows={4}
                 placeholder="Please describe your interest or any additional information..."
               />
