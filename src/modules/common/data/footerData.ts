@@ -14,10 +14,8 @@ export const brandInfo = {
   description:
     "A builder’s gateway to Hack Apps That Create Value! Builders and businesses co-learn, co-create, and hack together turning apps into value engines of growth.",
   partners: [
-    { src: "/assets/partnerlogo1.svg", alt: "9Figures" },
-    { src: "/assets/partnerlogo2.svg", alt: "The Builders' Stack" },
+  
     { src: "/assets/partnerlogo3.svg", alt: "GVN Nexus" },
-    { src: "/assets/partnerlogo4.svg", alt: "FICOLO" },
   ],
 }
 
